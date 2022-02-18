@@ -1,3 +1,6 @@
+Personal Website for Cole Hoffmann
+Built with React JS leveraging tailwind for css.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
