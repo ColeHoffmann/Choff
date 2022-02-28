@@ -14,23 +14,22 @@ export default function Projects() {
             Apps I've Built.
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-           Ranging from decentralized applications utilizing Web3 technology to stock picking artificial intelligence, I try to develop applications that spark my interests as often as I can.
+           Ranging from decentralized applications utilizing Web3 technology to stock picking artificial intelligence, I try to develop applications that spark my interests as often as I can. 
           </p>
+          
         </div>
-        <div className="flex flex-wrap -m-4">
+        
+        
+        <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+              className="sm:w-1/2 w-100 p-4 items-stretch">
+              
+                
+                <div className="px-8 py-10 relative z-10 w-full border-4 rounded-lg border-gray-800 bg-gray-900 opacity-80 transform transition duration-1000 hover:opacity-100 hover:scale-105">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-red-600 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
@@ -38,7 +37,7 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
-              </div>
+              
             </a>
           ))}
         </div>
