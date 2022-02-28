@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import Model from "./Model";
 
 // src/components/About.js
 
@@ -15,13 +16,14 @@ export default function About() {
               <span className = "text-6xl text-red-700 hover:text-red-600"> 
                 <Typewriter
                     onInit={(typewriter)=> {
-                    typewriter.typeString("Cole Hoffmann ").start();
+                    typewriter.typeString("Cole Hoffmann.").start();
                     }}
                 /> 
                   
          
                     </span> 
-            <br className=" text-lg hidden lg:inline-block" />I like to build things. 
+       
+            <span className= "text-gray-50 text-xl ">     I like to build things. </span> 
           </h1>
           <p className="mb-8 leading-relaxed">
             Bio. 
@@ -40,11 +42,10 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
-          />
+          
+          <div id = "cole-model"> 
+                  <Model />
+          </div>
         </div>
       </div>
     </section>
