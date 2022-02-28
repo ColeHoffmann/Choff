@@ -18,19 +18,19 @@ export const projects = [
       link: "https://github.com/ColeHoffmann/WallStreetBetsAI",
     },
     {
-      title: "TODO",
-      subtitle: "TODO",
+      title: "DappTodo",
+      subtitle: "Ethereum based Todo List",
       description:
-        "TODO",
+        "Built on the Ethereum blockchain using Truffle",
       image: "TODO",
-      link: "TODO",
+      link: "https://github.com/ColeHoffmann/DappTodo",
     },
     {
-      title: "TODO",
-      subtitle: "TODO",
+      title: "Covid-19 Mobile App",
+      subtitle: "All-in-one Covid-19 Dashboard",
       description:
-        "TODO",
+        "Made for Android, this mobile app seeks to be your all in one Covid-19 dashboard. Equipped with symptom tracking, resources, daily news, and more, the app seeks to be your one destination for manuevering through the pandemic.",
       image: "TODO",
-      link: "TODO",
+      link: "https://github.com/ColeHoffmann",
     },
   ];
