@@ -26,7 +26,8 @@ export default function About() {
             <span className= "text-gray-50 text-xl ">     I like to build things. </span> 
           </h1>
           <p className="mb-8 leading-relaxed">
-            Bio. 
+           📕 Passionate about Web3.                           <br/ >
+            📍 Based in Columbus, Ohio. 
           </p>
           <div className="flex justify-center">
             <a
