@@ -9,7 +9,7 @@ import SidebarNav from "./components/SidebarNav";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-light-purple bg-jet body-font">
       <About /> 
       <Projects /> 
       {/*

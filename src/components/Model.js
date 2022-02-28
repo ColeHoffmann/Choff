@@ -24,7 +24,7 @@ class Model extends Component {
       function init() {
         const MODEL_PATH =
           "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/stacy_lightweight.glb";
-        const backgroundColor = 0x111827;
+        const backgroundColor = 0x312F2F;
         // Init the scene
         scene = new THREE.Scene();
         scene.background = new THREE.Color(backgroundColor);
@@ -52,7 +52,7 @@ class Model extends Component {
 
 
         const stacy_mtl = new THREE.MeshPhongMaterial({
-          color: 0xccd6f6,
+          color: 0Xbdb4bf,
           skinning: true
         });
 
@@ -82,8 +82,8 @@ class Model extends Component {
             });
 
             // Set the models initial scale
-            model.scale.set(20, 20, 20);
-            model.position.y = -26;
+            model.scale.set(25, 25, 25);
+            model.position.y = -32;
 
             scene.add(model);
             mixer = new THREE.AnimationMixer(model);
@@ -125,7 +125,7 @@ class Model extends Component {
         // Floor
         let floorGeometry = new THREE.PlaneGeometry(5000, 5000, 1, 1);
         let floorMaterial = new THREE.MeshPhongMaterial({
-          color: 0x111827,
+          color: 0x312F2F,
           shininess: 0
         });
 
@@ -135,13 +135,15 @@ class Model extends Component {
         floor.position.y = -11;
         scene.add(floor);
 
+
+        //Color of Sphere
         let geometry = new THREE.SphereGeometry(24, 46, 46);
         let material = new THREE.MeshBasicMaterial({
-          color: 0x7f1d1d
+          color: 0x489FB5 //This is the same blue listed in the color pallete
         });
         let sphere = new THREE.Mesh(geometry, material);
         sphere.position.z = -30;
-        sphere.position.y = -2.5;
+        sphere.position.y = -10.5;
         sphere.position.x = -0.25;
         scene.add(sphere);
       }
