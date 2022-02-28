@@ -83,7 +83,7 @@ class Model extends Component {
 
             // Set the models initial scale
             model.scale.set(20, 20, 20);
-            model.position.y = -26;
+            model.position.y = -25;
 
             scene.add(model);
             mixer = new THREE.AnimationMixer(model);

@@ -1,6 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../projectData";
+import Typewriter from "typewriter-effect";
 
 export default function Projects() {
   return (
@@ -11,7 +12,16 @@ export default function Projects() {
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built.
+            
+            <span> 
+                <Typewriter
+                    onInit={(typewriter)=> {
+                    typewriter.pauseFor(2500).typeString("Apps I've Built.").start();
+                    
+                    }}
+                /> 
+                    </span>
+
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
            Ranging from decentralized applications utilizing Web3 technology to stock picking artificial intelligence, I try to develop applications that spark my interests as often as I can. 
