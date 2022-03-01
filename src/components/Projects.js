@@ -13,14 +13,7 @@ export default function Projects() {
           
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             
-            <span> 
-                <Typewriter
-                    onInit={(typewriter)=> {
-                    typewriter.pauseFor(2500).typeString("Apps I've Built.").start();
-                    
-                    }}
-                /> 
-                    </span>
+            /apps ive built
 
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
