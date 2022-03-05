@@ -1,20 +1,23 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
-import About from "./components/About";
+import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import SidebarNav from "./components/SidebarNav";
+import Bio from "./components/Bio";
 
 
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <About /> 
-      <Projects /> 
-      {/*
-      <Experience /> 
+      <Intro /> 
 
+      <Bio /> 
+      <Projects /> 
+      
+      
+{/*
         <div> 
           <SidebarNav /> 
         </div>
