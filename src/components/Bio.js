@@ -2,6 +2,7 @@ import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../skills.js";
 import me from "./assets/me.png";
+import Fade from "./Fade.js";
 
 export default function Bio() {
   return (
@@ -25,29 +26,31 @@ export default function Bio() {
             class="border-2 border-red-600 rounded-full p-2 h-400 mx-auto transition duration-1000 hover:opacity-100 hover:scale-105 "
           />
 
-          <div class="text-gray-400 text-center font-semibold p-4">
-            <p>
-              I am currently working at Abercrombie & Fitch as a Technical
-              Engineer & Digital Workplace Specalist. I graduated from The Ohio
-              State University with a degree in Computer Science & Engineering
-              in Spring of 2021.
-            </p>
-            <br />{" "}
-            <p>
-              I have been spending much of my free time studying various
-              software development topics, with a large emphasis on blockchain
-              and web3.0 technologies. Additionally, I enjoy projects that
-              involve automation, artificial intelligence, and some sort of
-              customer facing interaction.{" "}
-            </p>
-            <br />{" "}
-            <p>
-              {" "}
-              In my extra free time, I enjoy going to the gym, playing rocket
-              league and league of legends, playing guitar/piano, and tending to
-              my plants.
-            </p>
-          </div>
+          <Fade>
+            <div class="text-gray-400 text-center font-semibold p-4">
+              <p>
+                I am currently working at Abercrombie & Fitch as a Technical
+                Engineer & Digital Workplace Specalist. I graduated from The
+                Ohio State University with a degree in Computer Science &
+                Engineering in Spring of 2021.
+              </p>
+              <br />{" "}
+              <p>
+                I have been spending much of my free time studying various
+                software development topics, with a large emphasis on blockchain
+                and web3.0 technologies. Additionally, I enjoy projects that
+                involve automation, artificial intelligence, and some sort of
+                customer facing interaction.{" "}
+              </p>
+              <br />{" "}
+              <p>
+                {" "}
+                In my extra free time, I enjoy going to the gym, playing rocket
+                league and league of legends, playing guitar/piano, and tending
+                to my plants.
+              </p>
+            </div>
+          </Fade>
           <footer class="text-center py-3 px-8 text-gray-500">
             <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-evenly">
               <a
