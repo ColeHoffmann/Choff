@@ -13,12 +13,9 @@ function App() {
       <Bio />
       <Projects />
 
-      {/*
-        <div> 
-          <SidebarNav /> 
-        </div>
-
-      */}
+      <div>
+        <SidebarNav />
+      </div>
     </main>
   );
 }
