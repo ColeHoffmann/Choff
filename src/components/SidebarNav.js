@@ -1,6 +1,7 @@
 import { useState } from "react";
 import About from "./Intro";
 import Projects from "./Projects";
+import Fade from "./Fade";
 const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -17,7 +18,7 @@ const Sidebar = () => {
         <svg
           onClick={() => setShowSidebar(!showSidebar)}
           className="fixed  z-30 flex items-center cursor-pointer right-10 top-6"
-          fill="#2563EB"
+          fill="#7f1d1d"
           viewBox="0 0 100 80"
           width="40"
           height="40"
@@ -29,15 +30,30 @@ const Sidebar = () => {
       )}
 
       <div
-        className={`top-0 right-0 w-[35vw] bg-gray-300  p-10 pl-20 text-white fixed h-full z-40  ease-in-out duration-300 ${
+        className={`top-0 right-0 w-[10vw] bg-gray-800  p-5 pl-10 text-red-600 fixed h-full z-40  ease-in-out duration-700 ${
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       >
-        <h3 className="mt-20 text-4xl font-semibold text-white">
-          <a href="#about">bio</a>
-          <a href="#projects">projects</a>
-          <a href="contact">contact me</a>
-        </h3>
+        <Fade>
+          <div className="text-left mt-20 text-xl  text-white">
+            <p>
+              <a className="text-gray-300 hover:text-gray-100" href="#bio">
+                /bio
+              </a>
+            </p>
+
+            <p>
+              <a className="text-gray-300 hover:text-gray-100" href="#projects">
+                /projects
+              </a>
+            </p>
+            <p>
+              <a className="text-gray-300 hover:text-gray-100" href="contact">
+                /contact
+              </a>
+            </p>
+          </div>
+        </Fade>
       </div>
     </>
   );
