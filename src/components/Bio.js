@@ -46,8 +46,8 @@ export default function Bio() {
               <p>
                 {" "}
                 In my extra free time, I enjoy going to the gym, playing rocket
-                league and league of legends, playing guitar/piano, and tending
-                to my plants.
+                league and league of legends, practicing guitar/piano, and
+                tending to my plants.
               </p>
             </div>
           </Fade>
