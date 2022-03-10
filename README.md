@@ -5,7 +5,7 @@ Built with React JS leveraging tailwind for css.
 🛠 set-up
 Install the dependencies
 
-npm install or yarn
+#npm install or yarn
 Start the development server
 
 yarn run start
