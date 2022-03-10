@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import SidebarNav from "./components/SidebarNav";
 import Bio from "./components/Bio";
+import Bottom from "./components/Bottom";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div>
         <SidebarNav />
       </div>
+      <Bottom />
     </main>
   );
 }
