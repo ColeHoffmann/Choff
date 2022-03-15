@@ -19,7 +19,7 @@ export default function Bio() {
       {/*Outer Card */}
       <div className="flex items-center lg:w-5/6 mx-auto leading-relaxed text-base">
         {/*Outer Card with Information */}
-        <div class="mx-auto px-8 py-10 relative z-10 w-1/2 border-2 rounded-lg border-gray-800 bg-gray-900 opacity-80 transform transition duration-1000 hover:opacity-100 hover:scale-105">
+        <div class="mx-auto px-8 py-10 relative z-10 w-5/6 border-2 rounded-lg border-gray-800 bg-gray-900 opacity-80 transform transition duration-1000 hover:opacity-100 hover:scale-105">
           <img
             src={me}
             alt="Me"
@@ -27,7 +27,7 @@ export default function Bio() {
           />
 
           <Fade>
-            <div class="flex flex-wrap -m-4 text-gray-400 text-center font-semibold p-4">
+            <div class="flex py-10 flex-wrap -m-4 text-gray-400 text-center font-semibold p-4">
               <p>
                 I am currently working at Abercrombie & Fitch as a Technical
                 Engineer & Digital Workplace Specalist. I graduated from The
