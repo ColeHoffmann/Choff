@@ -27,7 +27,7 @@ export default function Bio() {
           />
 
           <Fade>
-            <div class="container text-gray-400 text-center font-semibold p-4">
+            <div class="flex flex-wrap -m-4 text-gray-400 text-center font-semibold p-4">
               <p>
                 I am currently working at Abercrombie & Fitch as a Technical
                 Engineer & Digital Workplace Specalist. I graduated from The
