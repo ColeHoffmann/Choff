@@ -13,7 +13,7 @@ export default function About() {
           <h1 className="title-font sm:text-5xl  mb-4 font-medium text-white">
             Hi, I'm
             <b>
-              <span className="text-8xl text-red-700 hover:text-red-600">
+              <span className="flex flex-wrap text-8xl text-red-700 hover:text-red-600">
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
