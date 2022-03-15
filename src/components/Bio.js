@@ -8,9 +8,9 @@ export default function Bio() {
   return (
     <section
       id="bio"
-      className="text-gray-400 bg-gray-900 body-font p-20 px-10 py-20"
+      className="text-gray-400 bg-gray-900 body-font p-20  py-20"
     >
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container  py-10 mx-auto text-center lg:px-40">
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
           /about me
         </h1>
