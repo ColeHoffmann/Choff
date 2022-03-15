@@ -48,7 +48,10 @@ const Sidebar = () => {
               </a>
             </p>
             <p>
-              <a className="text-gray-300 hover:text-gray-100" href="contact">
+              <a
+                className="text-gray-300 hover:text-gray-100"
+                href="https://www.linkedin.com/in/hoffmanncole/"
+              >
                 /contact
               </a>
             </p>
