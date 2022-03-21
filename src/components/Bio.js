@@ -34,7 +34,7 @@ export default function Bio() {
                 Ohio State University with a degree in Computer Science &
                 Engineering in Spring of 2021.
               </p>
-              <br />{" "}
+              <br /> <br />{" "}
               <p>
                 I have been spending much of my free time studying various
                 software development topics, with a large emphasis on blockchain
@@ -42,7 +42,7 @@ export default function Bio() {
                 involve automation, artificial intelligence, and some sort of
                 customer facing interaction.{" "}
               </p>
-              <br />{" "}
+              <br /> <br />{" "}
               <p>
                 {" "}
                 In my extra free time, I enjoy going to the gym, playing rocket
