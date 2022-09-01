@@ -29,8 +29,8 @@ export default function Bio() {
           <Fade>
             <div class="flex py-10 flex-wrap -m-4 text-gray-400 text-center font-semibold p-4">
               <p>
-                I am currently working at Abercrombie & Fitch as a Technical
-                Engineer & Digital Workplace Specalist. I graduated from The
+                I am currently working at Abercrombie & Fitch as a Mobile Apps
+                Developer focusing on the Android platform. I graduated from The
                 Ohio State University with a degree in Computer Science &
                 Engineering in Spring of 2021.
               </p>
